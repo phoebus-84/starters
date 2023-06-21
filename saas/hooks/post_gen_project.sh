@@ -3,7 +3,7 @@
 echo starting post gen
 
 
-set -euo pipefail
+# set -euo pipefail
 
 # cd ../{{cookiecutter.project_name}}/admin/pb_data
 # VALUE=$(sqlite3 data.db 'select value from _params where key like "settings";' | sed -En 's/Acme/{{cookiecutter.project_name}}/p')
