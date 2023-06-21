@@ -1,4 +1,5 @@
 import os
+import sys
 import shutil
 
 def create_env():
@@ -9,5 +10,5 @@ def create_env():
     shutil.copyfile(source_file, destination_file)
 
 if __name__ == '__main__':
-    create_env()
+    sys.exit(create_env())
     
